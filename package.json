@@ -1,0 +1,35 @@
+{
+  "name": "node-red-contrib-relay-no-nc",
+  "version": "1.0.0",
+  "description": "A Node-RED node that mimics latched NO NC relay logic.",
+  "keywords": [
+    "node-red",
+    "relay",
+    "logic",
+    "boolean",
+    "input",
+    "output"
+  ],
+  "author": "Harshad Joshi",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hj91/node-red-contrib-relay-no-nc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hj91/node-red-contrib-relay-no-nc/issues"
+  },
+  "homepage": "https://github.com/hj91/node-red-contrib-relay-no-nc#readme",
+  "node-red": {
+    "nodes": {
+      "relay-no": "relay-no.js",
+      "relay-nc": "relay-nc.js"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  }
+}
+
